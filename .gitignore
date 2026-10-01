@@ -1,0 +1,44 @@
+# Ignore local training data, experiments, and virtual environments
+AI model/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignore backend temp processing folder
+backend/temp/
+# Large model weights (use Git LFS or external storage)
+backend/model/*.pt
+
+# Node and Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Virtual environments
+venv/
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and databases
+*.sqlite3
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
